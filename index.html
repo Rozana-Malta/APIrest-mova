@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste MOVA - Rozana</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom-select.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div  class="navbar-logo">
+            <img src="images/logo_mova.svg" width="92px" height="61.66px"> 
+        </div>
+        <div class="navbar-return"> 
+            <button class="btn-return_button"> 
+                <i class="fas fa-long-arrow-alt-left"></i>
+                <b>Voltar</b>
+            </button>
+        </div>
+    </nav>
+
+    <header class="filter">
+        <div class="filter-content" >
+            <p><b>Filtrar por</b></p>
+        </div>
+        <div class="custom-select" style="width:328px;">
+            <select>
+                <option value="">Escolha uma opção</option>
+                <option value="region">Região</option>
+                <option value="capital">Capital</option>
+                <option value="languages.nativeName">Língua</option>
+                <option value="name">País</option>
+                <option value="callingCodes">Código de ligação</option>
+            </select>
+        </div>
+        <div>
+            <button class="btn-search_button "> <b>Pesquisar</b></button>
+        </div>
+    </header>
+
+    <main class="container grid" id="bandeiras">
+        
+    </main>
+
+    <script src="js/custom-select.js"></script>
+    <script src="js/app.js"></script>
+    
+
+
+</body>
+</html>
